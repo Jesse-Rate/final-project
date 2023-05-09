@@ -34,3 +34,13 @@
   }
 
 }
+
+.banner {
+
+  &.a {
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    
+  }
+}

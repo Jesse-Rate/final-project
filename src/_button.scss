@@ -9,11 +9,11 @@
     border: none;
     overflow: hidden;
     transition: all 0.3s ease;
-    /* padding: ; */
+    padding: 5px ;
     border-radius: 10px;
     height: 50px;
     cursor: wait;
-    margin: 20px;
+    margin: 20px 100px;
   
   &.hover, .focus {
     background-color: red;
