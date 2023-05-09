@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &.class-mobile {
+        max-width: 428px;
+        height: 400px;
+        background-color: black;
+    }
+
+    &.class-tablet {
+        max-width: 1024px;
+        min-width: 428px;
+        height: 400px;
+        background-color: black;
+    }
+    
+    &.class-desktop {
+        max-width: 100%;
+        min-width: 1024px;
+        height: 400px;
+        background-color: black;
+    }
+
+}
