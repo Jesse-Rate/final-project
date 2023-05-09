@@ -4,7 +4,10 @@
     justify-content: space-around;
 
     &.class-mobile {
-        max-width: 428px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
         height: 400px;
         background-color: black;
     }
