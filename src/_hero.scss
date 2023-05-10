@@ -16,7 +16,7 @@
   &.tablet {
     display: flex;
     width: 100%;
-    height: 620px;
+    height: 520px;
     background-image: url('../pictures/faded_tablet.png');
     background-size: cover;
     }
@@ -32,10 +32,10 @@
 }
 
 #odesza {
-  z-index: 5px;
+  z-index: 35;
   position: absolute;
-  top: 30px;
-  left: 50px;
-  background-image: url('../pictures/Odesza.svg');
+  top: 60px;
+  left: 60px;
+;
 
 }
