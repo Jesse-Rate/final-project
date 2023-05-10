@@ -1,15 +1,3 @@
-.header {
-
-    &.a {
-        display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    width: 100%;
-    background-color: black;
-    }
-    
-}
 
 .illuminatefestival {
     display: flex;
@@ -17,9 +5,26 @@
     justify-content: space-between;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    &.ul {
-        list-style: bullets;
-    }
-    
 }
+
+.banner {
+
+  &.a {
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    margin: 0 0 20px 0;
+    
+  }
+}
+
+.list {
+      
+  &.a {
+    margin: 20px;
+    .a ul li {list-style: circle;
+    }
+  }
+}  
+// .a ul li {list-style: circle;
+// }

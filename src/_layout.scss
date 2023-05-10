@@ -35,12 +35,15 @@
 
 }
 
-.banner {
+.header {
 
   &.a {
-    display: flex;
-    flex-direction: column;
-    font-style: oblique;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  background-color: black;
   }
+  
 }
